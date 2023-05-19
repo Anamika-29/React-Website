@@ -1,0 +1,1040 @@
+
+/* MAIN APP */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* FONTS  */
+
+@font-face {
+  font-family: 'AktifoaBold';
+  src: url('./font/aktifoa-bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'AktifoaBoldOblique';
+  src: url('./font/aktifoa-boldoblique.otf') format('opentype');
+}
+@font-face {
+  font-family: 'AktifoaBook';
+  src: url('./font/aktifoa-book.otf') format('opentype');
+}
+@font-face {
+  font-family: 'AktifoaBookOblique';
+  src: url('./font/aktifoa-bookoblique.otf') format('opentype');
+}
+@font-face {
+  font-family: 'AktifoaLight';
+  src: url('./font/aktifoa-light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'AktifoaLightOblique';
+  src: url('./font/aktifoa-lightoblique.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AktifoaMedium';
+  src: url('./font/aktifoa-medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AktifoaMediumOblique';
+  src: url('./font/aktifoa-mediumoblique.otf') format('opentype');
+}
+@font-face {
+  font-family: 'AktifoaSemibold';
+  src: url('./font/aktifoa-semibold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Aktifoasemiboldoblique';
+  src: url('./font/aktifoa-semiboldoblique.otf') format('opentype');
+}
+
+
+/* BANNER-1 */
+.banner-image {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  /* UI Properties */
+  background: transparent url('img/banner-image-copy.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+  opacity: 1;
+}
+
+.banner-image-2 {
+width: 100%;
+height: 1300px;
+/* UI Properties */
+  top: 0px;
+  left: 0px;
+  /* width: 100%;
+  height: 400px; */
+  /* UI Properties */
+  background: transparent url('img/banner image copy@2x.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+  opacity: 1;
+}
+
+.title {
+  margin-top: 76px;
+  margin-left: 100px;
+  width: 262px;
+  height: 88px;
+  /* UI Properties */
+  background: transparent url('img/Asset 3@4x-8@2x.png') 0% 0% no-repeat padding-box;
+  background-position: top left;
+  background-size: 100% auto;
+
+  opacity: 1;
+}
+
+
+.title-2{
+  margin-top: 30px;
+margin-left: 40px;
+width: 100px;
+height: 88px;
+/* UI Properties */
+background: transparent url('img/Asset 3@4x-8.png') 0% 0% no-repeat padding-box;
+background-size: 100% auto;
+
+
+opacity: 1;
+
+}
+
+.heading1{
+  margin-top: 80px;
+margin-left: 100px;
+width: 754px;
+height: 253px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 41px/54px AktifoaBook;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.heading1small{
+  margin-top: 5px;
+margin-left: 40px;
+width: 500px;
+height: 83px;
+/* UI Properties */
+text-align: left;
+font: normal normal 600 22px/28px AktifoaSemibold;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.heading2{
+  /* Layout Properties */
+  margin-top: -70px;
+margin-left: 100px;
+width: 527px;
+height: 82px;
+/* UI Properties */
+text-align: left;
+font: normal normal 300 27px/41px AktifoaLight;
+letter-spacing: 0px;
+color: #515151;
+opacity: 1;
+}
+
+.heading2Mob{
+  /* Layout Properties */
+  margin-top: 20px;
+margin-left: 40px;
+width: 527px;
+height: 82px;
+/* UI Properties */
+text-align: left;
+font: normal normal 300 17px/21px AktifoaLight;
+letter-spacing: 0px;
+color: #515151;
+opacity: 1;
+}
+
+.ellipse1 {
+  top: 677px;
+  width: 65px;
+  height: 65px;
+  /* UI Properties */
+  background: #292929;
+  border-radius: 50%;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ellipse1Mob {
+  margin-top: -70px;
+  margin-left: -20px;
+
+  width: 45px;
+  height: 45px;
+  /* UI Properties */
+  background: #292929;
+  border-radius: 50%;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ell1Mob {
+  margin-top: 3px;
+  width: 28px;
+  height: 42px;
+
+  /* UI Properties */
+  background: transparent url('img/Group 194.svg') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+  opacity: 1;
+}
+
+.ell2Mob {
+  margin-left: 0px;
+  width: 30px;
+  height: 37px;
+  /* UI Properties */
+  background: transparent url('img/Group 195.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-size: 100% auto;
+}
+
+.ell3Mob {
+  width: 40px;
+  height: 40px;
+  /* UI Properties */
+  background: transparent url('img/Asset 2ne.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-size: 100% auto;
+
+}
+
+.ell1 {
+  margin-top: 3px;
+  width: 38px;
+  height: 52px;
+  /* UI Properties */
+  background: transparent url('img/Group 194.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.ell2 {
+  margin-left: 0px;
+  width: 40px;
+  height: 47px;
+  /* UI Properties */
+  background: transparent url('img/Group 195.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.ell3 {
+  width: 60px;
+  height: 60px;
+  /* UI Properties */
+  background: transparent url('img/Asset 2ne.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+/* BANNER-2 */
+
+.banner-image2{
+
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 87vh;
+  /* UI Properties */
+  background: transparent url('img/Group 217.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+  opacity: 1;
+  
+}
+
+.banner-imagetwo2{
+
+  left: 0px;
+  width: 100%;
+  height: 112vh;
+  /* UI Properties */
+  background: transparent url('img/Mask Group 1@2x.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+  opacity: 1;
+  
+}
+
+
+.banner2Heading{
+  margin-top: 130px;
+  /* top: 1079px; */
+  margin-left: 70px;
+width: 731px;
+height: 61px;
+/* UI Properties */
+text-align: left;
+font: normal normal 600 41px/53px AktifoaSemibold;
+letter-spacing: 0px;
+color: #131313;
+opacity: 1;
+}
+
+.banner2HeadingMob{
+  margin-top: 40px;
+  /* top: 1079px; */
+  margin-left: 60px;
+width: 731px;
+height: 61px;
+/* UI Properties */
+text-align: left;
+font: normal normal 600 21px/23px AktifoaSemibold;
+letter-spacing: 0px;
+color: #131313;
+opacity: 1;
+}
+
+.one{
+  top: 1147px;
+left: 140px;
+width: 853px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal 300 16px/28px AktifoaLight;
+letter-spacing: 0px;
+color: #131313;
+opacity: 1;
+}
+
+.two{
+  top: 1207px;
+left: 140px;
+width: 834px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 20px/28px AktifoaMedium;
+letter-spacing: 0px;
+color: #131313;
+opacity: 1;
+}
+
+.three{
+  font-family: AktifoaLight;
+}
+
+.inquire {
+  width: 250px;
+  height: 55px;
+  background: #F26621;
+  border: none;
+  border-radius: 9px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.inquireText{
+  top: 1557px;
+left: 200px;
+width: 185px;
+height: 36px;
+/* UI Properties */
+text-align: left;
+font: normal normal 600 23px/36px AktifoaSemibold;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.oneMob{
+  margin-top: -30px;
+width: 420px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal 300 16px/17px AktifoaLight;
+letter-spacing: 0px;
+color: #131313;
+opacity: 1;
+}
+
+.twoMob{
+  margin-top: 5px;
+left: 140px;
+width: 834px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 20px/28px AktifoaMedium;
+letter-spacing: 0px;
+color: #131313;
+opacity: 1;
+}
+
+.threeMob{
+  width: 350px;
+  font: normal normal medium 15px/18px AktifoaLight;
+}
+
+.inquireMob {
+  width: 180px;
+  height: 35px;
+  background: #F26621;
+  border: none;
+  border-radius: 9px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.inquireTextMob{
+  top: 1557px;
+left: 200px;
+width: 185px;
+height: 36px;
+/* UI Properties */
+text-align: center;
+font: normal normal 600 18px/26px AktifoaSemibold;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+/* BANNER-3 */
+
+.container3{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+/* UI Properties */
+background: #E5E5E5 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.container2{
+  top: 2090px;
+left: 0px;
+width: 100%;
+height: 1060px;
+/* UI Properties */
+background: #E5E5E5 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.banner-image3 {
+  width: 450px;
+  height: 100vh;
+  background: transparent url('img/GS_DIGITAL_AD_WALL_FILMS_INTERIOR_DESIGN_COLLECTION_Indoor_MPI8621_Removable.png') 0% 0% / contain no-repeat padding-box;
+  opacity: 1;
+}
+.banner-image4{
+width: 100%;
+height: 50vh;
+/* UI Properties */
+background: transparent url('img/GS_DIGITAL_AD_WALL_FILMS_INTERIOR_DESIGN_COLLECTION_Indoor_MPI8621_Removable@2x.png') 0% 0% no-repeat padding-box;
+background-size: 100% auto ;
+opacity: 1;
+}
+
+.why{
+  margin-top: -630px;
+  /* margin-top: 1700px; */
+margin-left: 490px;
+width: 215px;
+height: 61px;
+/* UI Properties */
+text-align: left;
+font: normal normal 600 41px/53px AktifoaSemibold;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.whyMob{
+margin-left: 40px;
+width: 215px;
+height: 61px;
+margin-top: 15px;
+/* UI Properties */
+text-align: left;
+font: normal normal 600 21px/33px AktifoaSemibold;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+
+
+.content{
+  
+ width: 620px;
+  text-align: left;
+font: normal normal 100 15px/20px AktifoaLight;
+letter-spacing: 0px;
+color: #515151;
+}
+
+
+
+.circle1 {
+  position: relative;
+  margin-left: 490px;
+  width: 70px;
+  height: 70px;
+  /* UI Properties */
+  background: transparent url('img/Ellipse 19.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+  opacity: 1;
+}
+
+
+
+.circle1Img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 41px;
+  height: 60px;
+  /* UI Properties */
+  background: transparent url('img/Group 110.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+
+  opacity: 1;
+}
+
+.circle2 {
+  position: relative;
+  margin-top: 40px;
+  width: 70px;
+  height: 70px;
+  margin-left: 490px;
+  
+  /* UI Properties */
+  background: transparent url('img/Ellipse 19.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+  opacity: 1;
+}
+.circle2Img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 38px;
+  height: 38px;
+
+  /* UI Properties */
+  background: transparent url('img/ici-adhesives.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+
+  opacity: 1;
+}
+.circle3 {
+  position: relative;
+  margin-top: 40px;
+  width: 70px;
+  height: 70px;
+  margin-left: 490px;
+  /* UI Properties */
+  background: transparent url('img/Ellipse 19.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+  opacity: 1;
+}
+.circle3Img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  /* UI Properties */
+  background: transparent url('img/ici-online-communication.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+
+  opacity: 1;
+}
+.circle4Img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 39px;
+  height: 50px;
+  /* UI Properties */
+  background: transparent url('img/Path 68.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+
+  opacity: 1;
+}
+.circle4 {
+  position: relative;
+  margin-top: 40px;
+  width: 70px;
+  height: 70px;
+  margin-left: 490px;
+  /* UI Properties */
+  background: transparent url('img/Ellipse 19.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+  opacity: 1;
+}
+
+.content2{
+  
+  width: 337px;
+   text-align: left;
+ font: normal normal 100 15px/20px AktifoaLight;
+ letter-spacing: 0px;
+ color: #515151;
+ }
+ 
+ 
+ .circle1Mob {
+  
+   position: relative;
+   margin-top: -22px;
+   margin-left: 40px;
+   width: 50px;
+   height: 50px;
+   /* UI Properties */
+   background: transparent url('img/Ellipse 19.png') 0% 0% no-repeat padding-box;
+   background-size: 100% auto;
+   opacity: 1;
+ }
+.circle1ImgMob {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 35px;
+  /* UI Properties */
+  background: transparent url('img/Group 110.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+
+  opacity: 1;
+}
+
+
+
+.circle2Mob {
+  position: relative;
+  margin-top: 150px;
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+  
+  /* UI Properties */
+  background: transparent url('img/Ellipse 19.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+  opacity: 1;
+}
+
+
+
+.circle2ImgMob {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 28px;
+  height: 28px;
+
+  /* UI Properties */
+  background: transparent url('img/ici-adhesives.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+
+  opacity: 1;
+}
+
+
+
+.circle3Mob {
+  position: relative;
+  margin-top: 200px;
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+  /* UI Properties */
+  background: transparent url('img/Ellipse 19.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+  opacity: 1;
+}
+
+
+
+.circle3ImgMob {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  /* UI Properties */
+  background: transparent url('img/ici-online-communication.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+
+  opacity: 1;
+}
+
+.circle4Mob {
+  position: relative;
+  margin-top: 200px;
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+  /* UI Properties */
+  background: transparent url('img/Ellipse 19.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+  opacity: 1;
+}
+
+
+.circle4ImgMob {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 29px;
+  height: 40px;
+  /* UI Properties */
+  background: transparent url('img/Path 68.png') 0% 0% no-repeat padding-box;
+  background-size: 100% auto;
+
+  opacity: 1;
+}
+
+.tag2{
+  width: 215px;
+  height: 24px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 5px/14px AktifoaMedium;
+  letter-spacing: 0px;
+  color: #292929;
+  }
+
+
+.callBack{
+  width: 350px;
+  height: 55px;
+  background: #F26621;
+  border: none;
+  border-radius: 9px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.callBackText{
+  top: 1557px;
+left: 200px;
+width: 270px;
+height: 36px;
+/* UI Properties */
+text-align: left;
+font: normal normal 600 22px/36px AktifoaSemibold;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+
+}
+
+.callBackMob{
+  width: 170px;
+  height: 35px;
+  background: #F26621;
+  border: none;
+  border-radius: 9px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.callBackTextMob{
+  top: 1557px;
+left: 200px;
+width: 170px;
+height: 36px;
+/* UI Properties */
+text-align: left;
+font: normal normal 600 12px/26px AktifoaSemibold;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+
+}
+
+.tag{
+  
+width: 225px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 20px/34px AktifoaMedium;
+letter-spacing: 0px;
+color: #292929;
+}
+
+
+
+
+/* Footer   */
+.footer{
+  width: 100%;
+  height: 27vh;
+  background-size: cover;
+  /* UI Properties */
+  background: #1A1A1A 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footerMob{
+  margin-top: 345px;
+left: 0px;
+width: 100%;
+height: 236px;
+/* UI Properties */
+background: #1A1A1A 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.best{
+  text-align: left;
+  top: 2929px;
+left: 124px;
+width: 239px;
+height: 31px;
+/* UI Properties */
+
+font: normal normal 300 18px/25px AktifoaLight;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 0.78;
+}
+
+.footerImg{
+  top: 2984px;
+left: 118px;
+width: 150px;
+height: 65px;
+margin: 0 auto;
+float: left;
+/* UI Properties */
+background: transparent url('img/Vector Smart Object.png') 0% 0% no-repeat padding-box;
+background-size: 100% auto;
+opacity: 1;
+}
+
+.footerImgMob {
+  top: 3764px;
+  left: 30px;
+  width: 150px;
+  height: auto;
+  /* UI Properties */
+  background: transparent url('img/Vector Smart Object.png') 0% 0% no-repeat padding-box;
+  background-size: contain;
+  opacity: 1;
+}
+
+
+.dol{
+  top: 2929px;
+left: 530px;
+width: 339px;
+height: 29px;
+/* UI Properties */
+text-align: left;
+font: normal normal 300 18px/25px AktifoaLight;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.dolMob{
+  margin-top: 20px;
+  margin-left: 20px;
+width: 339px;
+height: 29px;
+/* UI Properties */
+text-align: left;
+font: normal normal 300 12px/25px AktifoaLight;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.column3{
+  top: 2929px;
+left: 1128px;
+width: 267px;
+height: 88px;
+/* UI Properties */
+text-align: left;
+font: normal normal 300 13px/24px AktifoaLight;
+letter-spacing: 0px;
+color: #727272;
+text-transform: capitalize;
+opacity: 1;
+}
+
+.column5{
+margin-top: 20px;
+left: 1128px;
+width: 267px;
+height: 88px;
+/* UI Properties */
+text-align: left;
+font: normal normal 300 9px/24px AktifoaLight;
+letter-spacing: 0px;
+color: #727272;
+text-transform: capitalize;
+opacity: 1;
+}
+
+.column4{
+  top: 2929px;
+left: 1569px;
+width: 164px;
+height: 64px;
+/* UI Properties */
+text-align: left;
+font: normal normal 300 13px/24px AktifoaLight;
+letter-spacing: 0px;
+color: #727272;
+text-transform: capitalize;
+opacity: 1;
+}
+
+.footerText{
+  padding-top: 20px;
+  padding-bottom: 20px;
+justify-content: center;
+/* UI Properties */
+text-align: center;
+font: normal normal 300 16px/19px AktifoaLight;
+letter-spacing: 0px;
+color: #848484;
+opacity: 1;
+}
+
+.footerTextMob{
+
+  top: 3854px;
+left: 131px;
+width: 468px;
+height: 9px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+justify-content: center;
+/* UI Properties */
+text-align: center;
+font: normal normal 300 8px/9px AktifoaLight;
+letter-spacing: 0px;
+color: #848484;
+opacity: 1;
+}
+
+
+/* Form */
+
+.connect{
+margin-top: 10px;
+margin-left: 10px;
+width: 276px;
+height: 41px;
+/* UI Properties */
+text-align: left;
+font: normal normal 600 32px/35px AktifoaSemibold;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.labels{
+  top: 203px;
+  margin-left: 0px;
+  width: 300px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 15px/20px AktifoaBook;
+letter-spacing: 0px;
+color: #292929;
+opacity: 1;
+}
+
+.submitText {
+  top: 1080px;
+left: 1337px;
+height: 36px;
+/* UI Properties */
+text-align: left;
+font: normal normal 600 20px/26px AktifoaSemibold;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.labels2{
+  top: 203px;
+  margin-left: 10px;
+  width: 500px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 17px/20px AktifoaBook;
+letter-spacing: 0px;
+color: #292929;
+opacity: 1;
+}
